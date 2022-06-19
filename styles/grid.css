@@ -89,3 +89,30 @@ nav a {
        background: #01AEFD;
 }
 
+@media (max-width:768px )  {
+       .grid-boxes .grid {
+             display: block;
+             padding: 0 !important;
+       }
+   
+       .grid {
+              grid-template-columns: 1fr;
+       }
+       header {
+              height: auto;
+              padding: 10px  0;
+       }
+       header .container {
+              width: 95% !important;
+              grid-template-columns: 1fr;
+              align-items: center;
+              justify-content: center;
+              padding: auto 0;
+              text-align: center;
+              
+       }
+       nav {
+              justify-self: center;
+       }
+      
+}
